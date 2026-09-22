@@ -1,0 +1,11 @@
+8086
+**/*.o
+Linux/*
+!Linux/*.asm
+**/*.C??
+**/*.EXE
+**/*.LST
+**/*.MA?
+**/*.OBJ
+**/*.T?
+.vscode

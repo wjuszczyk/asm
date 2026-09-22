@@ -1,0 +1,21 @@
+    page 60, 132
+TITLE   A07COM1 COM program to move and add
+CODESG  SEGMENT PARA    'Code'
+        ASSUME  CS:CODESG,DS:CODESG,SS:CODESG,ES:CODESG
+        ORG     100H
+BEGIN:  JMP     A10MAIN
+
+FLDD    DW  175
+FLDE    DW  150
+FLDF    DW  ?
+
+A10MAIN PROC    NEAR
+    MOV AX, FLDD
+    ADD AX, FLDE
+    MOV FLDF, AX
+    
+    MOV AX, 4C00H
+    INT 21H
+A10MAIN ENDP
+CODESG  ENDS
+        END BEGIN
