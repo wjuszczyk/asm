@@ -1,2 +1,2 @@
-IBM PC assembly language and programming
+IBM PC Assembly Language and Programming  
 Peter Abel
