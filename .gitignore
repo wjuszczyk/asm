@@ -2,6 +2,8 @@
 **/*.o
 Linux/*
 !Linux/*.asm
+olivestem/x86/*
+!olivestem/x86/*.s
 **/*.C??
 **/*.EXE
 **/*.LST
