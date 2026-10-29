@@ -1,0 +1,8 @@
+Show the content of memory address:
+
+(gdb) x/s 0x804c014
+0x804c014:      "Hello World!"
+(gdb) x/s 0x804c024
+0x804c024:      "Output is: %s\n"
+
+
